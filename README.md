@@ -1,7 +1,5 @@
 # 🎰 Generator liczb do gier liczbowych
 
-🇬🇧 [English version](README.en.md)
-
 Program w języku **Python 3** losujący liczby w popularnych grach liczbowych (**Lotto 6/49**, **Mini Lotto 5/42**, **Multi Multi 20/80**) z użyciem generatora liczb pseudolosowych. **Liczby w jednym losowaniu nigdy się nie powtarzają.**
 
 Projekt powstał jako ćwiczenie laboratoryjne *„Generowanie liczb w grach liczbowych”* (metody Monte Carlo, generatory liczb pseudolosowych).
@@ -34,8 +32,8 @@ Projekt powstał jako ćwiczenie laboratoryjne *„Generowanie liczb w grach lic
 ## Instalacja i uruchomienie
 
 ```bash
-git clone https://github.com/<twoj-login>/<nazwa-repozytorium>.git
-cd <nazwa-repozytorium>
+git clone https://github.com/mhSeveeN/MonteCarloLotto.git
+cd MonteCarloLotto
 python lotto.py
 ```
 
@@ -126,7 +124,7 @@ porównywana jest z wartością krytyczną rozkładu chi-kwadrat na poziomie ist
 ├── lotto.py        # program: generatory, metody losowania, symulacja, CLI i GUI
 ├── test_lotto.py   # testy jednostkowe (unittest)
 ├── README.md       # README po polsku
-└── README.en.md    # README po angielsku
+├── Dokumentacja_programu_Generator_liczb_losowych.docx    #Dokumentacja Programu
 ```
 
 ## Testy
@@ -136,12 +134,6 @@ python -m unittest -v
 ```
 
 Testy sprawdzają m.in. brak powtórzeń i zakres liczb dla wszystkich gier, metod i generatorów, powtarzalność przy stałym ziarnie, poprawność LCG oraz rozkład hipergeometryczny.
-
-## Zrzuty ekranu
-
-<!-- Wstaw własne zrzuty ekranu, np.: -->
-<!-- ![Aplikacja okienkowa](docs/gui.png) -->
-<!-- ![Wyniki w terminalu](docs/cli.png) -->
 
 ## Literatura
 
@@ -154,8 +146,8 @@ Testy sprawdzają m.in. brak powtórzeń i zakres liczb dla wszystkich gier, met
 
 ## Autor
 
-**[Imię i nazwisko]** · nr albumu: **[nr albumu]** · [Uczelnia, wydział, kierunek] · rok akademicki [20XX/20XX]
+**Maciej Hudek** · nr albumu: **189288** · Unwersytet WSB Merito Chorzów/Informatyka · rok akademicki [2026/2027]
 
 ## Licencja
 
-Projekt edukacyjny. Dodaj plik `LICENSE` (np. MIT), jeśli chcesz udostępnić kod publicznie.
+Projekt edukacyjny.
